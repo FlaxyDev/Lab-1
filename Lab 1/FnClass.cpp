@@ -1,7 +1,7 @@
 #include "FnClass.h"
 void FnClass::Fn_a(double x, double y, double z)
 {
-	a = pow(y, 2) + ((z/pow(x,2))+pow(sin(b),2)) / (abs((pow(x,2)+y)/(z+pow(x,3)/3)) - log(abs(pow(x,2)+z)));
+	a = pow(y, 2) + ((z/pow(x,2))+pow(sin(b),2)) / (abs((pow(x,2)+y)/(z+(pow(x,3)/3))) - log(abs(pow(x,2)+z)));
 }
 void FnClass::Fn_b(double x, double y, double z)
 {
